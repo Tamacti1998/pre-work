@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40vh;
+    width: 104.5vh;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 3vh;
+    position: fixed;
+    top: 0;
+}
+
+nav div.nav-left p {
+    color: black;
+    font-size: 5vh;
+    padding: 2vh 2vh;
+}
+
+nav div.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav div.nav-right a {
+    color: black;
+    margin: 0 3vh;
+    font-size: 2vh;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    border-bottom: 0.2vh solid black;
+    margin: 10vh 40vh;
+}
+
+header p {
+    font-size: 3vh;
+    padding: 2vh 0;
+    margin: 1.5vh 0;
+    color: white;
+}
+
+header p button {
+    padding: 1vh 2vh;
+    margin-left: 2vh;
+    background-color: gold;
+    color: black;
+    border: none;
+    opacity: 1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-bottom: 0.2vh solid black;
+    margin: 0 40vh;
+    margin-top: -8vh;
+    background-image: linear-gradient(-240deg, pink, violet);
+}
+
+main div h1 {
+    font-size: 2.5vh;
+    margin-top: 2vh;
+}
+
+main div.row-1 {
+    display: flex;
+    align-items: center;
+    margin: 2vh 0;
+}
+
+main div.row-1 p {
+    margin: 0 20vh;
+}
+
+main div.row-2 {
+    display: flex;
+    align-items: center;
+    margin: 2vh 0;
+}
+
+main div.row-2 p {
+    margin: 0 20vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-bottom: 0.2vh solid black;
+    margin: 0 40vh;
+    background-image: linear-gradient(180deg, red, white);
+}
+
+section h2 {
+    font-size: 2.5vh;
+    margin-top: 2vh;
+}
+
+section div.top-row {
+    display: flex;
+    align-items: center;
+    margin: 2vh 0;
+}
+
+section div.top-row p {
+    margin: 0 10vh;
+}
+
+section div.btn-row {
+    display: flex;
+    align-items: center;
+    margin: 2vh 0;
+}
+
+section div.btn-row p {
+    margin: 0 10vh;
+}
+
+div.sub-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    border-bottom: 0.2vh solid black;
+    margin: 0 40vh;
+    background-image: linear-gradient(360deg, yellow, silver)
+}
+
+div.sub-section div {
+    display: flex;
+    gap: 2vh;
+    margin: 2vh 11vh;
+}
+
+div.sub-section h3 {
+    font-size: 2.5vh;
+    margin-top: 2vh;
+}
+
+div.sub-section div.left-col {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+div.sub-section div.right-col {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+div.sub-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    border-bottom: 0.2vh solid black;
+    margin: 0 40vh;
+    background-image: linear-gradient(90deg, gold, green);
+}
+
+div.sub-main div {
+    display: flex;
+    flex-direction: row;
+    gap: 20vh;
+    margin: 2vh 0;
+}
+
+div.sub-main h4 {
+    font-size: 2.5vh;
+    margin-top: 2vh;
+}
+
+div.sub-main div button {
+    padding: 1vh 1vh;
+    border: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: none;
+    border-bottom: 0.2vh solid black;
+    border-top: 0.2vh solid black;
+    margin: 10vh 40vh;
+    gap: 5vh;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
